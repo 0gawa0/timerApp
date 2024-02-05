@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@100;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: rgb(235, 213, 201);
+}
+
+@media screen and (min-width: 721px) {
+  html {
+    font-size: 75%;
+  }
+
+  .counterStartContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timerCountFont {
+    font-size: 10rem;
+  }
+  
+  .setCountFont {
+    font-size: 12rem;
+    color: rgb(97, 80, 76);
+  }
+  
+  .button {
+    margin: 1rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    background-color: rgb(188, 115, 115);
+    font-size: 3rem;
+  }
+  
+  .button2 {
+    margin: 0.5rem 0.8rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    background-color: rgb(188, 115, 115);
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .counterStartContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timerCountFont {
+    font-size: 10rem;
+  }
+  
+  .setCountFont {
+    font-size: 12rem;
+    color: rgb(97, 80, 76);
+  }
+  
+  .button {
+    margin: 1rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    background-color: rgb(188, 115, 115);
+    font-size: 3rem;
+  }
+  
+  .button2 {
+    margin: 0.5rem 0.8rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    background-color: rgb(188, 115, 115);
+    font-size: 2.5rem;
+  }
+}
+
+#root {
+  text-align: center;
+}
+
+.timerCountColor {
+  color: rgb(97, 80, 76);
+}
+
+.timerAlmostFinishColor {
+  color: rgb(188, 115, 115);
+}
+
+.roboto700 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto100 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
